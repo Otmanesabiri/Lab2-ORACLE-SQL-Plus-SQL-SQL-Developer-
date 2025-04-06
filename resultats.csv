@@ -1,0 +1,14 @@
+SQL> SET MARKUP CSV ON DELIMITER ',' QUOTE ON
+SQL> SELECT * FROM Joueurs;
+
+"NUMJOUEUR","NOMJ","PRENOMJ","DATENAISSANCE","NUMEQUIPE"
+1,"Ayoubi","Rachid","10-FEB-80",1
+2,"Jack","Robert","22-JUN-77",2
+3,"Arabi","Omar","16-DEC-79",1
+4,"Garcia","David","13-JAN-80",3
+5,"Iose","George","30-MAY-70",4
+6,"Roberto","Claude","16-OCT-81",2
+
+6 rows selected.
+
+SQL> SPOOL OFF

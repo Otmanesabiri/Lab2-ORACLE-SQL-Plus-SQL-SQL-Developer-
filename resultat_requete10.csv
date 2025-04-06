@@ -1,0 +1,10 @@
+SQL> SET MARKUP CSV ON DELIMITER ',' QUOTE ON
+SQL> SELECT J.NumJoueur
+  2  FROM Joueurs J, Equipes E
+  3  WHERE J.NumEquipe = E.NumEquipe AND E.Pays='Maroc';
+
+"NUMJOUEUR"
+1
+3
+
+SQL> SPOOL OFF
